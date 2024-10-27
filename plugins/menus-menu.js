@@ -22,12 +22,12 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `
-      LxShadow 🥀
+      𝗚𝘂𝗸𝗼 𝗕𝗼𝘁
       
   *Hola,* ${taguser}
 
-  *Creador Del Bot:* LxShadow
-  *Número:* wa.me/+5215541081250
+  *Creador Del Bot:* 𝗧𝗶𝗹𝗶𝗻 
+  *Número:* wa.me/+5218336105471
   *Fecha:* ${date}
 
   Usa el siguiente comando para ver precios del bot,
@@ -423,8 +423,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ☁️ _${usedPrefix}saveimage
   ☁️ _${usedPrefix}viewimage
   
-  LxShadow ~Bot 🥀 `.trim();
-    if (m.isGroup) {
+  Guko ~Bot  `.trim();
+    if (m.isGroup) { 'https://chat.whatsapp.com/IF9iFcXYvV85dXLyu8Ey71`
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
       conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: m});
