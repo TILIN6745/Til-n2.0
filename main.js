@@ -108,7 +108,7 @@ loadChatgptDB();
 
 /* ------------------------------------------------*/
 
-global.authFile = `@LxShadow 🥀`;
+global.authFile = `@Tilin`;
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile);
 const msgRetryCounterMap = (MessageRetryMap) => { };
 const msgRetryCounterCache = new NodeCache()
@@ -124,7 +124,7 @@ const connectionOptions = {
         logger: pino({ level: 'silent' }),
         printQRInTerminal: !pairingCode, 
         mobile: useMobile, 
-        browser: ['@LxShadow (Linux)', '', ''],
+        browser: ['@Tilin', '', ''],
         auth: {
             creds: state.creds,
             keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -351,8 +351,8 @@ global.reloadHandler = async function(restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate);
   }
 
-  conn.welcome = '@subject\n @user\n 𝐁𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝𝐱 \n\n 𝐃𝐞𝐬𝐜𝐫𝐢𝐩𝐜𝐢𝐨𝐧:\n\n@desc\n\n @LxShadow ~ Bot 🥀\n';
-  conn.bye = ' @user\n 𝐇𝐚𝐬𝐭𝐚 𝐍𝐮𝐧𝐜𝐚 ! \n @LxShadow ~ Bot 🥀';
+  conn.welcome = '@subject\n @user\n 𝐁𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝𝐱 \n\n 𝐃𝐞𝐬𝐜𝐫𝐢𝐩𝐜𝐢𝐨𝐧:\n\n@desc\n\n @Guko ~ Bot 🤖\n';
+  conn.bye = ' @user\n 𝐇𝐚𝐬𝐭𝐚 𝐍𝐮𝐧𝐜𝐚 ! \n @Guko ~ Bot 🤖';
   conn.spromote = '*[ ❗ ] @user 𝐒𝐞 𝐒𝐮𝐦𝐚 𝐀𝐥 𝐆𝐫𝐮𝐩𝐨 𝐃𝐞 𝐀𝐝𝐦𝐢𝐧𝐬 ⚙️*';
   conn.sdemote = '*[ ❗ ] @user 𝐀𝐛𝐚𝐧𝐝𝐨𝐧𝐚 𝐄𝐥 𝐆𝐫𝐮𝐩𝐨 𝐃𝐞 𝐀𝐝𝐦𝐢𝐧𝐬 ⚙️*';
   conn.sDesc = '*[ ❗ ] 𝐒𝐞 𝐇𝐚 𝐌𝐨𝐝𝐢𝐟𝐢𝐜𝐚𝐝𝐨 𝐋𝐚 𝐃𝐞𝐬𝐜𝐫𝐢𝐩𝐜𝐢𝐨𝐧 𝐃𝐞𝐥 𝐆𝐫𝐮𝐩𝐨*\n\n*𝐍𝐮𝐞𝐯𝐚 𝐃𝐞𝐬𝐜: @desc*';
@@ -512,7 +512,7 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = ` 𝐓𝐢𝐞𝐦𝐩𝐨 𝐀𝐜𝐭𝐢𝐯𝐨 : ${uptime}  𝐂𝐫𝐞𝐚𝐝𝐨𝐫 @𝐋𝐱𝐒𝐡𝐚𝐝𝐨𝐰 🥀`;
+  const bio = ` 𝐓𝐢𝐞𝐦𝐩𝐨 𝐀𝐜𝐭𝐢𝐯𝐨 : ${uptime}  𝐂𝐫𝐞𝐚𝐝𝐨𝐫 @𝗧𝗶𝗹𝗶𝗻 `;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
