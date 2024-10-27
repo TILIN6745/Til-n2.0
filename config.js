@@ -10,39 +10,39 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['5215541081250', ' LxShadow 🥀', true],
-  ['5215541081250', ' LxShadow 🥀', true],
-  ['5215541081250', ' LxShadow 🥀', true],
-  ['5215541081250', ' LxShadow 🥀', true],
-  ['5215541081250', ' LxShadow ', true],
-  ['5215541081250', ' LxShadow 🥀', true],
-  ['5215541081250', ' LxShadow 🥀', true],
-  ['5215541081250', ' LxShadow 🥀', false],
-  ['5215541081250', ' LxShadow 🥀', true],
-  ['5215541081250',' LxShadow 🥀', true],
-  ['5215541081250'],
-  ['5215541081250'],
-  ['5215541081250'],
-  ['5215541081250'],
-  ['5215541081250'],
-  ['5215541081250'],
-  ['5215541081250'],
-  ['5215541081250'], 
-  ['5215541081250'],  
-  ['5215541081250'],
-  ['5215541081250'],
-  ['5215541081250']
+  ['5218336105471', ' 𝗚𝘂𝗸𝗼 𝗕𝗼𝘁, true],
+  ['5218336105471', ' 𝗚𝘂𝗸𝗼 𝗕𝗼𝘁, true],
+  ['5218336105471', ' 𝗚𝘂𝗸𝗼 𝗕𝗼𝘁, true],
+  ['5218336105471', ' 𝗚𝘂𝗸𝗼 𝗕𝗼𝘁, true],
+  ['5218336105471', ' 𝗚𝘂𝗸𝗼 𝗕𝗼𝘁 ', true],
+  ['5218336105471', ' 𝗚𝘂𝗸𝗼 𝗕𝗼𝘁, true],
+  ['5218336105471', ' 𝗚𝘂𝗸𝗼 𝗕𝗼𝘁, true],
+  ['5218336105471', ' 𝗚𝘂𝗸𝗼 𝗕𝗼𝘁, false],
+  ['5218336105471', ' 𝗚𝘂𝗸𝗼 𝗕𝗼𝘁, true],
+  ['5218336105471','  𝗚𝘂𝗸𝗼 𝗕𝗼𝘁, true],
+  ['5218336105471'],
+  ['5218336105471'],
+  ['5218336105471'],
+  ['5218336105471'],
+  ['5218336105471'],
+  ['5218336105471'],
+  ['5218336105471'],
+  ['5218336105471'], 
+  ['5218336105471'],  
+  ['5218336105471'],
+  ['5218336105471'],
+  ['5218336105471']
 ];
 
-global.suittag = ['5215541081250'];
-global.prems = ['5215541081250'];
+global.suittag = ['5218336105471'];
+global.prems = ['5218336105471'];
 
-global.packname = 'LxShadow ~ Bot 🥀';
-global.author = 'LxShadow ~ Bot 🥀';
-global.wm = 'LxShadow ~ Bot 🥀';
-global.titulowm = 'LxShadow ~ Bot 🥀';
-global.titulowm2 = `LxShadow ~ Bot 🥀`
-global.igfg = 'LxShadow ~ Bot 🥀';
+global.packname = '𝗚𝘂𝗸𝗼 𝗕𝗼𝘁;
+global.author = '𝗚𝘂𝗸𝗼 𝗕𝗼𝘁 ;
+global.wm = '𝗚𝗨𝗞𝗢 𝗕𝗢𝗧;
+global.titulowm = '𝗚𝗨𝗞𝗢 𝗕𝗢𝗧;
+global.titulowm2 = `𝗚𝗨𝗞𝗢 𝗕𝗢𝗧`
+global.igfg = '𝗚𝗨𝗞𝗢 𝗕𝗢𝗧;
 global.wait = '*[ ❗️ ] Cargando...*';
 
 global.imagen1 = fs.readFileSync('./LxShadow.jpg');
@@ -63,15 +63,15 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\n @LxShadow ~ Bot 🥀`;
-global.gt = '@LxShadow ~ Bot 🥀';
-global.mysticbot = ' @LxShadow ~ Bot 🥀';
+global.wm2 = `${dia} ${fecha}\n @𝐆𝐮𝐤𝐨 𝐛𝐨𝐭`;
+global.gt = '@𝐆𝐮𝐤𝐨 𝐛𝐨𝐭;
+global.mysticbot = ' @𝐆𝐮𝐤𝐨 𝐁𝐨𝐭;
 global.md = 'https://github.com/LxShadow/LxShadow';
 global.mysticbot = 'https://github.com/LxShadow/LxShadow';
 global.waitt = '*[ ❗️ ] Cargando...*';
 global.waittt = '*[ ❗️ ] Cargando...*';
 global.waitttt = '*[ ❗️ ] Cargando...*';
-global.nomorown = '5215541081250';
+global.nomorown = '5218336105471';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
