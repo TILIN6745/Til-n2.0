@@ -10,16 +10,16 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['5218336105471', ' 𝗚𝘂𝗸𝗼 𝗕𝗼𝘁, true],
-  ['5218336105471', ' 𝗚𝘂𝗸𝗼 𝗕𝗼𝘁, true],
-  ['5218336105471', ' 𝗚𝘂𝗸𝗼 𝗕𝗼𝘁, true],
-  ['5218336105471', ' 𝗚𝘂𝗸𝗼 𝗕𝗼𝘁, true],
-  ['5218336105471', ' 𝗚𝘂𝗸𝗼 𝗕𝗼𝘁 ', true],
-  ['5218336105471', ' 𝗚𝘂𝗸𝗼 𝗕𝗼𝘁, true],
-  ['5218336105471', ' 𝗚𝘂𝗸𝗼 𝗕𝗼𝘁, true],
-  ['5218336105471', ' 𝗚𝘂𝗸𝗼 𝗕𝗼𝘁, false],
-  ['5218336105471', ' 𝗚𝘂𝗸𝗼 𝗕𝗼𝘁, true],
-  ['5218336105471','  𝗚𝘂𝗸𝗼 𝗕𝗼𝘁, true],
+  ['5218336105471', ' 𝗚𝗼𝗸𝘂 𝗕𝗼𝘁, true],
+  ['5218336105471', ' 𝗚𝗼𝗸𝘂 𝗕𝗼𝘁, true],
+  ['5218336105471', ' 𝗚𝗼𝗸𝘂 𝗕𝗼𝘁, true],
+  ['5218336105471', ' 𝗚𝗼𝗸𝘂 𝗕𝗼𝘁, true],
+  ['5218336105471', ' 𝗚𝗼𝗸𝘂 𝗕𝗼𝘁 ', true],
+  ['5218336105471', ' 𝗚𝗼𝗸𝘂 𝗕𝗼𝘁, true],
+  ['5218336105471', ' 𝗚𝗼𝗸𝘂 𝗕𝗼𝘁, true],
+  ['5218336105471', ' 𝗚𝗼𝗸𝘂 𝗕𝗼𝘁, false],
+  ['5218336105471', ' 𝗚𝗼𝗸𝘂 𝗕𝗼𝘁, true],
+  ['5218336105471','  𝗚𝗼𝗸𝘂 𝗕𝗼𝘁, true],
   ['5218336105471'],
   ['5218336105471'],
   ['5218336105471'],
@@ -37,12 +37,12 @@ global.owner = [
 global.suittag = ['5218336105471'];
 global.prems = ['5218336105471'];
 
-global.packname = '𝗚𝘂𝗸𝗼 𝗕𝗼𝘁;
-global.author = '𝗚𝘂𝗸𝗼 𝗕𝗼𝘁 ;
-global.wm = '𝗚𝗨𝗞𝗢 𝗕𝗢𝗧;
-global.titulowm = '𝗚𝗨𝗞𝗢 𝗕𝗢𝗧;
-global.titulowm2 = `𝗚𝗨𝗞𝗢 𝗕𝗢𝗧`
-global.igfg = '𝗚𝗨𝗞𝗢 𝗕𝗢𝗧;
+global.packname = '𝗚𝗼𝗸𝘂 𝗕𝗼𝘁;
+global.author = '𝗚𝗼𝗸𝘂 𝗕𝗼𝘁 ;
+global.wm = '𝗚𝗼𝗞𝘂 𝗕𝗢𝗧;
+global.titulowm = '𝗚𝗼𝗞𝘂 𝗕𝗢𝗧;
+global.titulowm2 = `𝗚𝗼𝗞𝘂 𝗕𝗢𝗧`
+global.igfg = '𝗚𝗼𝗞𝘂 𝗕𝗢𝗧;
 global.wait = '*[ ❗️ ] Cargando...*';
 
 global.imagen1 = fs.readFileSync('./LxShadow.jpg');
@@ -63,9 +63,9 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\n @𝐆𝐮𝐤𝐨 𝐛𝐨𝐭`;
-global.gt = '@𝐆𝐮𝐤𝐨 𝐛𝐨𝐭;
-global.mysticbot = ' @𝐆𝐮𝐤𝐨 𝐁𝐨𝐭;
+global.wm2 = `${dia} ${fecha}\n @𝐆𝗼𝐤𝘂 𝐛𝐨𝐭`;
+global.gt = '@𝐆𝗼𝐤𝘂 𝐛𝐨𝐭;
+global.mysticbot = ' @𝐆𝗼𝐤𝘂 𝐁𝐨𝐭;
 global.md = 'https://github.com/LxShadow/LxShadow';
 global.mysticbot = 'https://github.com/LxShadow/LxShadow';
 global.waitt = '*[ ❗️ ] Cargando...*';
